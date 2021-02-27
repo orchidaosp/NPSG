@@ -28,5 +28,4 @@
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="orchidaosp" revision="master" />
     <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="orchidaosp" revision="test-ten" />
     <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="orchidaosp" />
-    <project path="frameworks/native" name="frameworks_native" remote="orchidaosp" />
 </manifest>
