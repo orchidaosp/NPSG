@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="orchidaosp"
+            fetch="https://github.com/orchidaosp" />
+   
+    <!-- Rebrand LineageOS to npsg" -->
+	<remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+    <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
+    <remove-project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
+    <remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+    <remove-project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+    <remove-project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="master" />
+    <remove-project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
+    <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
+    <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
+    <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+    <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+	<remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
+    <remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
+    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+	<remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+    <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="orchidaosp" revision="test-ten" />
+    <project path="packages/apps/Settings" name="NPSGandroid_packages_apps_Settings" remote="orchidaosp" revision="test-ten" />
+	<project path="packages/apps/Extra" name="android_packages_apps_Extra" remote="orchidaosp" revision="test-ten" />
+    <project path="vendor/lineage" name="android_vendor_lineage" remote="orchidaosp" revision="test-ten" />
+    <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="orchidaosp" revision="Orchidos" />
+    <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="orchidaosp" revision="master" />
+    <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="orchidaosp" revision="test-ten" />
+	<project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="orchidaosp" />
+	<project path="frameworks/native" name="frameworks_native" remote="orchidaosp" />
+</manifest>
