@@ -2,6 +2,9 @@
 <manifest>
     <remote name="orchidaosp"
             fetch="https://github.com/orchidaosp" />
+	
+	 <remote name="lineagex"
+            fetch="https://github.com//Lineage-X" />
    
     <!-- Rebrand LineageOS to npsg" -->
     <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
@@ -27,5 +30,5 @@
     <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="orchidaosp" revision="Orchidos" />
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="orchidaosp" revision="master" />
     <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="orchidaosp" revision="test-ten" />
-    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="orchidaosp" />
+    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" revision="ten" />
 </manifest>
