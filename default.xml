@@ -693,6 +693,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/npsgteamorchid.xml" />
-  <include name="snippets/twolip.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
